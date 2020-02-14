@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 40px;
+  border-bottom: 2px solid #000;
+  font-size: 1.2rem;
+}
+ul{
+display: flex;  
+}
+
+li {
+	list-style: none;
+	padding: 0 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.btn{
+ 
+  background: #f4f4f4;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.btn:hover {
+	color: #fff;
+	background: #551a8b;
+}
+.active{
+  color: #fff;
+	background: #551a8b;
+}
+p{
+  font-size: 1.3rem;
+}
+h1{
+  font-size: 2.5rem;
+}
+
+
+
+#showcase{
+  background: url('/resources/img/background.png') no-repeat center center/cover;
+  height: 600px;
+  position: relative;
+}
+.container-body {
+	position: absolute;
+	height: 600px;
+	background: #000;
+	width: 100%;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  line-height: 3;
+}
+/* form for both registeration and log in */
+label{
+  font-size: 1.5rem;
+}
+input{
+  
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	font-size: 1.2rem;
+  padding: 20px 40px;
+  color: #551a8b;
+}
