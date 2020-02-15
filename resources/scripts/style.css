@@ -50,11 +50,7 @@ h1{
 
 
 #showcase{
-<<<<<<< HEAD
-  background: url('/resources/img/background.jpg') no-repeat center center/cover;
-=======
-  background: url('./resources/img/background.png') no-repeat center center/cover;
->>>>>>> 6f014628c5effd10eb368090d9942a6f32d912aa
+  background: url('../img/background.jpg') no-repeat center center/cover;
   height: 600px;
   position: relative;
 }
